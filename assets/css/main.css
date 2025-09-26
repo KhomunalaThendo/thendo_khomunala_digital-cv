@@ -142,6 +142,7 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 		color: #8cd1a8;
 		text-decoration: none;
+		border-radius: 10px;
 	}
 
 		a:hover {
@@ -264,7 +265,11 @@ input, select, textarea {
 	.align-right {
 		text-align: right;
 	}
-
+	.sendMessage{
+		background-color: #7aca9a;
+		border-radius: 10px;
+		
+	}
 /* Container */
 
 	.container {
@@ -2402,6 +2407,9 @@ input, select, textarea {
 		}
 
 /* Actions */
+	.container ul li a{
+		border-radius: 10px;
+	}
 
 	ul.actions {
 		display: -moz-flex;
