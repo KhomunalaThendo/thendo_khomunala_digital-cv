@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Khomunala Thendo</title>
+		<title>Khomunala Thendo Digital CV</title>
 		<meta charset="utf-8" />
 		<meta name="color-scheme" content="dark">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -18,14 +18,14 @@
 		<!-- Header -->
 			<section id="header">
 				<header class="major">
-					<h1   style="
+					<h1 data-aos="fade-right"  style="
   color: transparent;
   -webkit-text-stroke: 2px #fff;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 3rem;
 ">Khomunala Thendo</h1>
-					<p >Frontend Web Developer </p>
+					<p data-aos="fade-left" >Frontend Web Developer </p>
 				</header>
 				<div class="container">
 					<ul class="actions special">
@@ -57,7 +57,7 @@
 							<h2>Tech Stack</h2>
 						</header>
 						<p></p>
-						<ul class="icons-grid">
+						<ul data-aos="zoom-out" class="icons-grid">
 							<li>
 								<span class="fas fa-globe"></span>
 								<h3>Web Dev</h3>
@@ -487,7 +487,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+    AOS.init({
+    duration: 2500, // animation duration (ms)
+    once: false,     // whether animation should happen only once
+  });
+</script>  
 
 	</body>
-
 </html>
