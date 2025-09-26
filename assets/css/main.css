@@ -71,6 +71,8 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+
+
 .qualification{
 	display: flex;
 	flex-direction: column;
@@ -2348,6 +2350,9 @@ input, select, textarea {
 	}
 
 /* Icons */
+.icons li a{
+	color: #7aca9a;
+}
 
 	ul.icons {
 		cursor: default;
@@ -3180,6 +3185,5 @@ input, select, textarea {
 					margin: 0;
 					padding: 0;
 				}
-
 
 	}
